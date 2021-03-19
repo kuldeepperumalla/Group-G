@@ -1,0 +1,105 @@
+/*Styles for team.html*/
+table tr th {
+	border-collapse: no-border;
+}
+
+table tr th#first {
+	height: 10px;
+	width: 5%;
+	background-color: rgb(145, 141, 141);
+}
+
+table tr th#second {
+	height: 10px;
+	width: 5%;
+	background-color: #5d85d5;
+}
+
+table tr th#third {
+	height: 10px;
+	width: 5%;
+	background-color: #336699;
+}
+
+table tr th#fourth {
+	height: 10px;
+	width: 100%;
+	background-color: rgb(235, 228, 228);
+}
+
+h1 {
+	color: grey;
+	text-indent: 50px;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	grid-row-gap: 1em;
+}
+
+.wrapper div {
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+.wrapper div p {
+	text-align: center;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.wrapper div p.desgn {
+	font-weight: bold;
+}
+
+div.wrapper img {
+	width: 150px;
+	height: 180px;
+	border: none;
+	border-radius: 50%;
+	margin-left: 50px;
+}
+
+.wrapper>div:nth-child(odd) {
+	background-color: #5d85d5;
+}
+
+.wrapper>div:nth-child(even) {
+	background-color: #336699;
+}
+
+.wrapper2 {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: minmax(80px, 25px);
+}
+
+.wrapper2>div:nth-child(odd) {
+	background-color: #5d85d5;
+	opacity: 0.6;
+}
+
+.wrapper2>div:nth-child(even) {
+	background-color: #336699;
+	opacity: 0.6;
+}
+
+.wrapper2 div p {
+	color: white;
+	text-align: center;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: gray;
+	font-size: smaller;
+}
+/*End of Styles for team.html*/
