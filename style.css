@@ -103,3 +103,42 @@ footer a {
 	font-size: smaller;
 }
 /*End of Styles for team.html*/
+/*Start of Styles for faq.html*/
+
+#he{
+    text-align: center;
+}
+
+.question {
+   display: flex; 
+   background-color: #EFE5E3;
+   text-align: justify;
+   border-left: 2px solid red;
+   padding: 0.5px;
+   height: auto;
+   max-height: max-content;
+   
+}
+.answer{
+    display: flex;
+    text-align: justify;
+    padding: 0.5px;  
+    border-left: 2px solid black;
+    color: Dark gray;
+    max-height: max-content;
+    
+}
+
+.qn{
+    padding-right: 15px;
+    color: red;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.an{
+    padding-right: 15px;
+    color: Black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+/*End of Styles for faq.html*/
