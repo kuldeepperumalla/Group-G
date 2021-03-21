@@ -1,3 +1,109 @@
+
+/* index.html */
+.heroimage{
+	width: 100%;
+	height: 500px;
+	background: url(./images/banner.jpg) no-repeat center;
+	height: 400px;
+	background-size: cover;
+	position: relative;
+	/* filter: brightness(80%); */
+	overflow: hidden;
+}
+
+.text-over{
+	color: white  !important;
+	position: relative;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	font-size: 0.9em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+	font-size: 2em;
+	
+}
+ .content {
+	 color: grey;
+	 width: 90%;
+	 display: inline-block;
+ }
+.services {
+	display: flex;
+	flex-direction: row;
+}
+
+.cards {
+	width: 50%;
+	margin: 15px;
+	padding: 11px 15px 50px 15px;
+	background-color: whitesmoke;
+	flex: 50%;
+}
+ i {
+	 color:#5d85d5;
+	 font-size: 25px;
+ }
+
+ button {
+    background-color: Transparent;
+    border: 1px solid white;
+	color: white;
+	font-size: 1.2em;
+	border-radius: 20px;
+	padding: 8px 20px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	
+}
+
+button:hover{
+	background-color: white;
+	opacity: 80%;
+	transition-delay: 0.2s;
+	transition-duration: 5s;
+	transition: 0.3s;
+	border: 1px solid white;
+	color: black;
+	
+}
+
+h4 {
+	font-variant: small-caps;
+	font-family:sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: grey;
+	font-weight: lighter;
+	margin: 10px 0px 0px 0px;
+	padding: 8px;
+	/* border: 1px solid grey; */
+
+}
+
+
+button:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
+
+ @media (max-width: 800px) {
+	.services {
+	  flex-direction: column;
+	  margin: 0 auto;
+	  max-width: 100%;
+	  align-items: center;
+	}
+
+	.cards {
+		width: 90%;
+	}
+  }
+/* end of index.html */
+
 /*Styles for team.html*/
 table tr th {
 	border-collapse: no-border;
