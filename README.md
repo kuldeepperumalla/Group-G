@@ -1,3 +1,8 @@
+https://kuldeepperumalla.github.io/Group-G/
+https://kuldeepperumalla.github.io/Group-G/hours.html
+https://kuldeepperumalla.github.io/Group-G/team.html
+https://kuldeepperumalla.github.io/Group-G/contact.html
+https://kuldeepperumalla.github.io/Group-G/faq.html
 CSD-1113 Web Technologies I
 Practice Exercises 11-21
 Using Cascading Style Sheets (CSS)
