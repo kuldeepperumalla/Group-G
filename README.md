@@ -1,8 +1,3 @@
-https://kuldeepperumalla.github.io/Group-G/
-https://kuldeepperumalla.github.io/Group-G/hours.html
-https://kuldeepperumalla.github.io/Group-G/team.html
-https://kuldeepperumalla.github.io/Group-G/contact.html
-https://kuldeepperumalla.github.io/Group-G/faq.html
 CSD-1113 Web Technologies I
 Practice Exercises 11-21
 Using Cascading Style Sheets (CSS)
@@ -11,25 +6,28 @@ Notes:
 
 Exercises:
 
-Meet the Team Page 
+Meet the Team Page (https://kuldeepperumalla.github.io/Group-G/team.html)
 11)	Create a team.html page and add pictures (1 per group member) 
 12)	Display picture of all your team members with name, job title, student ID and some text. Page should look similar to the image shown above.  
 
-Contact Page
+Contact Page (https://kuldeepperumalla.github.io/Group-G/contact.html)
 
 13)	Create contact.html page as shown on the image.
 14)	On the contact.html page, add text area for message 
 15)	On the contact.html page, add a checkbox to confirm the user to accept company policy (not shown in diagram
 Hours of Operation
+
+Hours Page (https://kuldeepperumalla.github.io/Group-G/hours.html)
+
 16)	Create hours.html page and display business hours in a table. Make sure to list location address and email on the top:
 
-FAQ Page
+FAQ Page (https://kuldeepperumalla.github.io/Group-G/faq.html)
 
 17)	Create a Faqs.html page and display questions and answers using h3 and paragraph combination:
 Formatting instructions:
 H1 – page title, H3 – question and p – answer  
 
-Home Page 
+Home Page (https://kuldeepperumalla.github.io/Group-G/index.html)
  
 18)	On the index.html page, display a big banner image. Use CSS to display the image 
 19)	Display text and a button on top a image (hint: image is in the background) 
